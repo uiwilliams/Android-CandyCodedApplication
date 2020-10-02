@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="Override onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,41 +156,54 @@
       <option name="presentableId" value="Default" />
       <updated>1572482991570</updated>
     </task>
+    <task id="LOCAL-00001" summary="Overrode onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent.">
+      <created>1601641405722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601641405722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Override onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Override onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent." />
+    <MESSAGE value="Overrode onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Overrode onOptionsItemSelected() method, created the explicit Intent for launching the InfoActivity. Called startActivity() with the infoIntent as a parameter to start the Intent." />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1601638888126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="765" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601638888126" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601640178040">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601641403859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601640178040" />
-    <state width="1306" height="46" key="GridCell.Tab.0.bottom" timestamp="1601640224735">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601641403859" />
+    <state width="1306" height="482" key="GridCell.Tab.0.bottom" timestamp="1601642298274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="46" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601640224735" />
-    <state width="1306" height="46" key="GridCell.Tab.0.center" timestamp="1601640224735">
+    <state width="1306" height="482" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601642298274" />
+    <state width="1306" height="482" key="GridCell.Tab.0.center" timestamp="1601642298274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="46" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601640224735" />
-    <state width="1306" height="46" key="GridCell.Tab.0.left" timestamp="1601640224734">
+    <state width="1306" height="482" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601642298274" />
+    <state width="1306" height="482" key="GridCell.Tab.0.left" timestamp="1601642298274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="46" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601640224734" />
-    <state width="1306" height="46" key="GridCell.Tab.0.right" timestamp="1601640224735">
+    <state width="1306" height="482" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601642298274" />
+    <state width="1306" height="482" key="GridCell.Tab.0.right" timestamp="1601642298274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="46" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601640224735" />
+    <state width="1306" height="482" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601642298274" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1601640222441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601640222441" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601641416324">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601641416324" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601641368207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
