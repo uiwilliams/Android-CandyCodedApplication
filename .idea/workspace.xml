@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601643716713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Shared Candy with an Intent: I override the onOptionItemSelected(MenuItem item) method in DetailActivity, made shareIntent(), created ACTION_SEND Intent, set the Type for the Intent, used putExtra() to Pass Data with the Intent, started the Activity.">
+      <created>1601646246176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601646246176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,17 +192,18 @@
     <MESSAGE value="Implicit intent. Created the createMap" />
     <MESSAGE value="Implicit intent. Created the createMapIntent() method, created uri for the address, created an ACTION_VIEW Intent, set the intent Package, checked that an activity exists to handle the intent, started the activity with the mapIntent, finally I created a TextView Click Handler." />
     <MESSAGE value="Implicit intent. Created the createPhoneIntent() method, created an ACTION_DIAL Intent, set the intent Data, started the activity with the phoneIntent, finally I created a TextView Click Handler." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implicit intent. Created the createPhoneIntent() method, created an ACTION_DIAL Intent, set the intent Data, started the activity with the phoneIntent, finally I created a TextView Click Handler." />
+    <MESSAGE value="Shared Candy with an Intent: I override the onOptionItemSelected(MenuItem item) method in DetailActivity, made shareIntent(), created ACTION_SEND Intent, set the Type for the Intent, used putExtra() to Pass Data with the Intent, started the Activity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Shared Candy with an Intent: I override the onOptionItemSelected(MenuItem item) method in DetailActivity, made shareIntent(), created ACTION_SEND Intent, set the Type for the Intent, used putExtra() to Pass Data with the Intent, started the Activity." />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1601643940491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="765" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601643940491" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601643715006">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601646244353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601643715006" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601646244353" />
     <state width="1306" height="340" key="GridCell.Tab.0.bottom" timestamp="1601645886458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,10 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601640222441" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601643718548">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601646250555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601643718548" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601646250555" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601641368207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
