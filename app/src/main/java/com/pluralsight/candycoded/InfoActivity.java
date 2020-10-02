@@ -4,10 +4,15 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
+
+import static com.pluralsight.candycoded.DetailActivity.HASHTAG_CANDYCODED;
+import static com.pluralsight.candycoded.DetailActivity.SHARE_DESCRIPTION;
+import static com.pluralsight.candycoded.DetailActivity.mCandyImageUrl;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -38,7 +43,6 @@ public class InfoActivity extends AppCompatActivity {
         }
     }
 
-
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
@@ -48,4 +52,5 @@ public class InfoActivity extends AppCompatActivity {
         phoneIntent.setData(uri);
         startActivity(phoneIntent);
     }
+
 }
